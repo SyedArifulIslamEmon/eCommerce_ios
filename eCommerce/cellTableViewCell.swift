@@ -2,7 +2,7 @@ import UIKit
 
 class cellTableViewCell: UITableViewCell,UICollectionViewDataSource, UICollectionViewDelegate{
     //var collectionArray : [collectionCellData]?
-    var collectionData1 : [collectionCellData] = []
+    var collectionData : [collectionCellData] = []
     
     @IBOutlet weak var imgItem: UIImageView!
     
@@ -32,15 +32,15 @@ class cellTableViewCell: UITableViewCell,UICollectionViewDataSource, UICollectio
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return collectionData1.count
+        return collectionData.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cellCollection = cellCollectionViewOutlet.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath) as! cellCollectionViewCell
         let imageCollectionView = cellCollection.viewWithTag(10) as! UIImageView
-        imageCollectionView.kf.setImage(with: URL(string: collectionData1[indexPath.item].secondViewImageOneOne!))
+        imageCollectionView.kf.setImage(with: URL(string: collectionData[indexPath.item].secondViewImageOneOne!))
         
-        cellCollection.lblCollectionItems.text = collectionData1[indexPath.item].secondViewTextnameOneOne!
+        cellCollection.lblCollectionItems.text = collectionData[indexPath.item].secondViewTextnameOneOne!
         
         return cellCollection
     }

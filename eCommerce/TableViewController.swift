@@ -81,7 +81,7 @@ class TableViewController: UITableViewController {
        
         let cell =  tableViewOutlet.dequeueReusableCell(withIdentifier: "cell") as! cellTableViewCell
       
-        cell.collectionData1 = dataArray[indexPath.row].collectionArray!
+        cell.collectionData = dataArray[indexPath.row].collectionArray!
         cell.cellCollectionViewOutlet.reloadData()
         
         let imageView = cell.viewWithTag(1) as! UIImageView
