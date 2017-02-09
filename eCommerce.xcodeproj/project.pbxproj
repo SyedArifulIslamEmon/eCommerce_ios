@@ -18,6 +18,7 @@
 		1D00DFB61E4B2DC900610683 /* cellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00DFB51E4B2DC900610683 /* cellCollectionViewCell.swift */; };
 		1D00DFBA1E4B56DE00610683 /* cellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00DFB91E4B56DE00610683 /* cellData.swift */; };
 		1D00DFBC1E4B5FC300610683 /* collectionCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00DFBB1E4B5FC300610683 /* collectionCellData.swift */; };
+		1DE71AD71E4C331500B18E15 /* dataArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE71AD61E4C331500B18E15 /* dataArray.swift */; };
 		E8E6C5EABAAA0146EF5006E9 /* Pods_eCommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B380D996A6537A609FD32CC2 /* Pods_eCommerce.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		1D00DFB51E4B2DC900610683 /* cellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellCollectionViewCell.swift; sourceTree = "<group>"; };
 		1D00DFB91E4B56DE00610683 /* cellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellData.swift; sourceTree = "<group>"; };
 		1D00DFBB1E4B5FC300610683 /* collectionCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collectionCellData.swift; sourceTree = "<group>"; };
+		1DE71AD61E4C331500B18E15 /* dataArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataArray.swift; sourceTree = "<group>"; };
 		3731F4395CFF3ED7C7010230 /* Pods-eCommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCommerce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eCommerce/Pods-eCommerce.debug.xcconfig"; sourceTree = "<group>"; };
 		B380D996A6537A609FD32CC2 /* Pods_eCommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eCommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D5A4B158040D75FEBEFB01 /* Pods-eCommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCommerce.release.xcconfig"; path = "Pods/Target Support Files/Pods-eCommerce/Pods-eCommerce.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				1D00DFB51E4B2DC900610683 /* cellCollectionViewCell.swift */,
 				1D00DFB91E4B56DE00610683 /* cellData.swift */,
 				1D00DFBB1E4B5FC300610683 /* collectionCellData.swift */,
+				1DE71AD61E4C331500B18E15 /* dataArray.swift */,
 			);
 			path = eCommerce;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				1D00DFB01E4ADE0700610683 /* cellTableViewCell.swift in Sources */,
 				1D00DFAE1E4AD86000610683 /* TableViewController.swift in Sources */,
 				1D00DFB61E4B2DC900610683 /* cellCollectionViewCell.swift in Sources */,
+				1DE71AD71E4C331500B18E15 /* dataArray.swift in Sources */,
 				1D00DFBC1E4B5FC300610683 /* collectionCellData.swift in Sources */,
 				1D00DFBA1E4B56DE00610683 /* cellData.swift in Sources */,
 				1D00DF801E4AD81900610683 /* AppDelegate.swift in Sources */,

@@ -9,18 +9,14 @@
 import Foundation
 import UIKit
 
-struct collectionCellData{
+class collectionCellData{
     
     let secondViewImageOneOne : String?
     let secondViewTextnameOneOne : String?
     
-    
     init(secondViewImageOneOne : String?, secondViewTextnameOneOne : String?){
     
-        
-        
         self.secondViewImageOneOne = secondViewImageOneOne
         self.secondViewTextnameOneOne = secondViewTextnameOneOne
     }
-    
 }
