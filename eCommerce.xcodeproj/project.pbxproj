@@ -10,7 +10,6 @@
 		1D00DF801E4AD81900610683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00DF7F1E4AD81900610683 /* AppDelegate.swift */; };
 		1D00DF851E4AD81900610683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D00DF831E4AD81900610683 /* Main.storyboard */; };
 		1D00DF871E4AD81900610683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D00DF861E4AD81900610683 /* Assets.xcassets */; };
-		1D00DF8A1E4AD81900610683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D00DF881E4AD81900610683 /* LaunchScreen.storyboard */; };
 		1D00DF951E4AD81900610683 /* eCommerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00DF941E4AD81900610683 /* eCommerceTests.swift */; };
 		1D00DFA01E4AD81900610683 /* eCommerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00DF9F1E4AD81900610683 /* eCommerceUITests.swift */; };
 		1D00DFAE1E4AD86000610683 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00DFAD1E4AD86000610683 /* TableViewController.swift */; };
@@ -18,6 +17,7 @@
 		1D00DFB61E4B2DC900610683 /* cellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00DFB51E4B2DC900610683 /* cellCollectionViewCell.swift */; };
 		1D00DFBA1E4B56DE00610683 /* cellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00DFB91E4B56DE00610683 /* cellData.swift */; };
 		1D00DFBC1E4B5FC300610683 /* collectionCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00DFBB1E4B5FC300610683 /* collectionCellData.swift */; };
+		1D5A124F1E4DC44100FC0B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5A124D1E4DC44100FC0B73 /* LaunchScreen.storyboard */; };
 		1DE71AD71E4C331500B18E15 /* dataArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE71AD61E4C331500B18E15 /* dataArray.swift */; };
 		E8E6C5EABAAA0146EF5006E9 /* Pods_eCommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B380D996A6537A609FD32CC2 /* Pods_eCommerce.framework */; };
 /* End PBXBuildFile section */
@@ -44,7 +44,6 @@
 		1D00DF7F1E4AD81900610683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D00DF841E4AD81900610683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D00DF861E4AD81900610683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1D00DF891E4AD81900610683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D00DF8B1E4AD81900610683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D00DF901E4AD81900610683 /* eCommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eCommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D00DF941E4AD81900610683 /* eCommerceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eCommerceTests.swift; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		1D00DFB51E4B2DC900610683 /* cellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellCollectionViewCell.swift; sourceTree = "<group>"; };
 		1D00DFB91E4B56DE00610683 /* cellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellData.swift; sourceTree = "<group>"; };
 		1D00DFBB1E4B5FC300610683 /* collectionCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collectionCellData.swift; sourceTree = "<group>"; };
+		1D5A124E1E4DC44100FC0B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DE71AD61E4C331500B18E15 /* dataArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataArray.swift; sourceTree = "<group>"; };
 		3731F4395CFF3ED7C7010230 /* Pods-eCommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCommerce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eCommerce/Pods-eCommerce.debug.xcconfig"; sourceTree = "<group>"; };
 		B380D996A6537A609FD32CC2 /* Pods_eCommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eCommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,10 +114,10 @@
 		1D00DF7E1E4AD81900610683 /* eCommerce */ = {
 			isa = PBXGroup;
 			children = (
+				1D5A124D1E4DC44100FC0B73 /* LaunchScreen.storyboard */,
 				1D00DF7F1E4AD81900610683 /* AppDelegate.swift */,
 				1D00DF831E4AD81900610683 /* Main.storyboard */,
 				1D00DF861E4AD81900610683 /* Assets.xcassets */,
-				1D00DF881E4AD81900610683 /* LaunchScreen.storyboard */,
 				1D00DF8B1E4AD81900610683 /* Info.plist */,
 				1D00DFAD1E4AD86000610683 /* TableViewController.swift */,
 				1D00DFAF1E4ADE0700610683 /* cellTableViewCell.swift */,
@@ -274,7 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D00DF8A1E4AD81900610683 /* LaunchScreen.storyboard in Resources */,
+				1D5A124F1E4DC44100FC0B73 /* LaunchScreen.storyboard in Resources */,
 				1D00DF871E4AD81900610683 /* Assets.xcassets in Resources */,
 				1D00DF851E4AD81900610683 /* Main.storyboard in Resources */,
 			);
@@ -399,10 +399,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1D00DF881E4AD81900610683 /* LaunchScreen.storyboard */ = {
+		1D5A124D1E4DC44100FC0B73 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1D00DF891E4AD81900610683 /* Base */,
+				1D5A124E1E4DC44100FC0B73 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

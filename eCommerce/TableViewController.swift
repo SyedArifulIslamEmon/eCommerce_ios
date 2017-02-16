@@ -8,18 +8,18 @@ class TableViewController: UITableViewController {
     
     var expandedHeight: Int = 110
     var temp: Int = 0
-
+    
+    //var headArray : [String] = ["Fruits & Vegetables", "Grocery & Staples", "Household Needs", "Personal Care", "Breakfast & Dairy"]
     
     var selectedIndex = -1
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //var headArray =
+        
         tableViewOutlet.delegate = self
         tableViewOutlet.dataSource = self
-        
-        
-        
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -45,13 +45,13 @@ class TableViewController: UITableViewController {
         
         cell.contentView.backgroundColor = UIColor.clear
         
-        let whiteRoundedView : UIView = UIView(frame: CGRect(x: 10, y: 8, width: self.view.frame.size.width - 20, height: 150))
+        let whiteRoundedView : UIView = UIView(frame: CGRect(x: 10, y: 20, width: self.view.frame.size.width - 20, height: 150))
         
-        whiteRoundedView.layer.backgroundColor = CGColor(colorSpace: CGColorSpaceCreateDeviceRGB(), components: [1.0, 1.0, 1.0, 0.9])
+        whiteRoundedView.layer.backgroundColor = CGColor(colorSpace: CGColorSpaceCreateDeviceRGB(), components: [1.0, 1.0, 1.0, 1.0])
         whiteRoundedView.layer.masksToBounds = false
-        whiteRoundedView.layer.cornerRadius = 2.0
+        whiteRoundedView.layer.cornerRadius = 20.0
         whiteRoundedView.layer.shadowOffset = CGSize(width: -1, height: 1)
-        whiteRoundedView.layer.shadowOpacity = 0.2
+        whiteRoundedView.layer.shadowOpacity = 20.0
         
         cell.contentView.addSubview(whiteRoundedView)
         cell.contentView.sendSubview(toBack: whiteRoundedView)
@@ -87,19 +87,25 @@ class TableViewController: UITableViewController {
         else{
             selectedIndex = indexPath.row
         }
+        UIView.setAnimationsEnabled(false)
         self.tableViewOutlet.beginUpdates()
         indexPathHeader = indexPath.row
         self.tableViewOutlet.reloadRows(at: [indexPath], with: UITableViewRowAnimation.automatic)
         self.tableViewOutlet.endUpdates()
-        //UIView setAnimationsEnabled:YES
+        UIView.setAnimationsEnabled(true)
         //tableViewOutlet.reloadData()
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if(selectedIndex == indexPath.row){
-            return 400
-        }/*for value in dataArray{
-                if(value.collectionArray?.isEqual(dataArray[selectedIndex])){
+            //if((indexPath.row % 2 ) == 0){
+                //let x = ceil(Double(collectionData.count) / 3)
+            
+//}
+            return 330}
+
+        /*for value in dataArray{
+                if(value.cellItemName?.isEqual(headArray[selectedIndex]))!{
                     temp += 1
                 }
             }
@@ -115,6 +121,5 @@ class TableViewController: UITableViewController {
         else{
             return 129
         }
-    
+        }
     }
-}
